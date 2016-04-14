@@ -34,7 +34,6 @@ void purgenewlines(char *s)
 {
 	int l;
 	l = strlen(s);
-	printf("%d chars\n", l);
 	while (l--)
 		if (s[l] == '\n')
 			s[l] = '\0';

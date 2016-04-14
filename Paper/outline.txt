@@ -1,0 +1,20 @@
+Passwords and Multi-Factor Authentication
+
+  I. Weaknesses in single text based passwords
+    1. Encourages weak/memorable passwords & same passwords in multiple places
+    2. Based entirely on aptitude of user
+    3. Can be too restrictive (i.e. No spaces or special chars)
+    4. Security vs. Usability
+
+ II. How Multi-Factor Authentication has helped
+    1. Overview of something you know, something you have, something you are method
+    2. It reduces the risks of weak/memorable passwords & same passwords in multiple places
+    3. It takes some of the burden off of users
+    4. Still can be restrictive
+    5. Security vs. Usability
+    6. Bad things (Lost phone, stolen fingerprints, etc)
+
+III. Future of Authentication
+    1. Single Sign-on
+    2. Replacement of Text based passwords w/ Biometrics (no burden on users)
+    3. Furthering the something you know, something you have, something you are method

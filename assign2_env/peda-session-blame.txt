@@ -1,2 +1,2 @@
-break blame.c:52
+break /vagrant/blame.c:52
 

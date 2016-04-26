@@ -3,7 +3,7 @@ global _start
 section .text
 
 _start:
-jmp message
+jmp short message
 
 proc:
     xor eax, eax
@@ -12,11 +12,9 @@ proc:
     xor ecx, ecx
 
     mov al, 0x04
-    ;xor ebx, ebx
     mov bl, 0x01
     pop ecx
-    ;xor edx, edx
-    mov dl, 0x17
+    mov dl, 0x19
     int 0x80
 
     xor eax, eax
@@ -27,6 +25,6 @@ proc:
 
 message:
     call proc
-    msg db "Now I pwn your computer" ;, 0dh, 0ah
+    db "Now I pwn your computer", 0dh, 0ah
 
 section .data

@@ -42,7 +42,7 @@ void purgenewlines(char *s)
 int main()
 {
 	char scapegoat[INPUT_BUFFER];
-        printf("%p", &scapegoat);
+    printf("%p", &scapegoat);
 	grabline(scapegoat);
 	/* this check ensures there's no buffer overflow */
 	if (strlen(scapegoat) < INPUT_BUFFER) {

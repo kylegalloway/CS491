@@ -21,9 +21,8 @@
 void grabline(char *s)
 {
 	int c;
-	while ((c=getchar()) != EOF) {
+	while ((c=getchar()) != EOF)
 		*s++ = c;
-	}
 	*s = '\0';
 }
 
@@ -42,7 +41,7 @@ void purgenewlines(char *s)
 int main()
 {
 	char scapegoat[INPUT_BUFFER];
-    printf("%p", &scapegoat);
+	printf("%p\n", scapegoat);
 	grabline(scapegoat);
 	/* this check ensures there's no buffer overflow */
 	if (strlen(scapegoat) < INPUT_BUFFER) {
